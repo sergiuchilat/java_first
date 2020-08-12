@@ -2,7 +2,9 @@ class FirstJava{
 	public static void main(String [] args){
 		Aritmetica a = new Aritmetica();
 		System.out.println("First Java");
-		System.out.println(a.sum(2, 3));
+		int x = 4;
+		int y = 2;
+		System.out.println(a.sum(x, y));
 	}
 }
 
